@@ -1,0 +1,859 @@
+QProgressBar {
+    /*border: 2px solid rgb(243, 243, 243);*/
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    height: 16px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #6c9dfd,stop: 1 #8fb4ff);
+    border-radius: 8px;
+    
+    border: 2px solid rgb(243, 243, 243);
+}
+
+QTabBar::tab {
+    width:160;
+    font: 75 9pt \"MS Shell Dlg 2\";
+    background:/* #ffffff*/ rgb(221, 243, 246);
+    color: #516ed9;
+    border: 1px solid #dde2f6;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+QTabBar::tab:selected {
+    background:  #dde2f6; 
+    font-weight: bold; 
+}
+
+QTabBar::tab:hover {
+    background:#bbebee; /* #ddf3f6;*/   
+}
+
+QPushButton[type="main"] {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 18px;
+    min-height: 50px;
+}
+
+QPushButton[type="main"]:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+QPushButton[type="main"]:checked {
+    font-weight: bold;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.034 rgba(0, 85, 255, 255), stop:0.039 rgba(255, 255, 255, 255));
+    color: rgb(81, 110, 217);
+}
+
+QMainWindow {
+    background-color: rgb(243, 246, 250);
+}
+
+#sidebar_widget {
+    background-color: rgb(255, 255, 255);
+    min-height: 50px;
+    max-height: 2000px;
+    border-radius: 0px;
+}
+
+QWidget {
+    border-radius: 25px;
+    background-color:  rgb(243, 246, 250);
+}
+
+#sidebar_logo{
+    background-color: transparent;
+}
+
+#btn_user {
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+}
+
+#btn_user:hover {
+    font-size: 16px;
+    border-radius: 15px;
+    border:3px solid rgb(221, 243, 246);
+}
+
+QLabel[type="lb_description"] 
+{
+    border-color: rgb(255, 255, 255);
+    font-size:16px;
+    font: 75  \"MS Shell Dlg 2\";
+    background-color: transparent;
+    color:black;
+}
+
+QLabel[type="lb_name_course"]{
+    border-radius: 25px;
+    background-color: rgb(221, 243, 246);
+    border: 2px solid rgb(221, 243, 246);
+    color:black;
+    }
+
+QLabel[type="lb_name_lesson"] 
+{
+    border-color: transparent; 
+    font: 75 \"MS Shell Dlg 2\";
+    font-size:18px;
+    background-color: transparent;
+    color:black;
+}
+
+QPushButton[type="next_previous"] {
+    border: 2px solid #e6e6e6;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+QPushButton[type="next_previous"]:hover {
+    background-color: #e6e6e6;
+}
+
+QWidget[type="w_pg"]{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+QLabel[type="page_section"]{
+    border-color: transparent; 
+    font: 75  \"MS Shell Dlg 2\";
+    font-size:24px;
+    border-radius: 25px;
+    background-color:transparent; 
+    color: black;
+}
+
+QScrollArea{
+    background-color: transparent;
+}
+
+QWidget[type="card"] {
+    border-radius: 25px; 
+    border: 2px solid #e6e6e6; 
+    background-color: rgb(255, 255, 255); 
+    padding:0px;
+}
+
+QLabel[type="card"]{
+    font: 75  'MS Shell Dlg 2';
+    font-size:28px;
+    border: 2px solid white;
+    background-color:white;
+}
+
+QLabel[type="tags"]{
+    border-radius: 25px; 
+    background-color: #bbebee; 
+    border: 2px solid #bbebee;
+}
+
+QLabel[type="lb_small"] 
+{
+    border-color: transparent; 
+    font:  \"MS Shell Dlg 2\";
+    font-size:12px;
+    background-color: transparent;
+
+    
+}
+
+QPushButton[type="start_continue"] {
+    background-color: transparent;
+    border-radius:25px; 
+    background: #516ed9; 
+    font: 75  'MS Shell Dlg 2';
+    font-size:26px;
+    color: white;
+}
+
+QPushButton[type="start_continue"]:hover {
+    background-color: transparent;
+    border-radius:25px; 
+    background:#8fb4ff; 
+    font: 75 'MS Shell Dlg 2';
+    font-size:26px;
+    color: white;
+}
+
+QPushButton[type="start_continue_complete"]{
+    border-radius:25px; 
+    min-width: 100px;
+    min-height: 50px;
+    background-color:  #f3f3f3;
+    font: 75 'MS Shell Dlg 2';
+    font-size:26px;
+    color: #516ed9;
+    font-weight: bold;
+}
+
+QPushButton[type="start_continue_complete"]:hover{
+    background-color: rgb(230, 230, 230);
+
+}
+
+QPushButton[type="start_continue_complete"]:checked {
+    background-color: rgb(230, 230, 230);
+
+}
+
+QCheckBox{
+    font: 75  \"MS Shell Dlg 2\";
+    font-size:18px;
+    background-color:transparent;
+    color: black;
+}
+
+QRadioButton{
+    font: 75 \"MS Shell Dlg 2\";
+    font-size:18px;
+    background-color: transparent;
+    color: black;
+}
+
+QWidget[type="transparent_widget"] {
+    background-color:transparent;
+    color:black;
+}
+
+QWidget[type="progress"] {
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+QTabWidget{
+    background-color: transparent;
+}
+
+QTabWidget[type="color"]{
+    background-color: #ffffff;
+}
+
+QLineEdit[type="settings"] {
+    font: \"MS Shell Dlg 2\";
+    font-size: 16px;
+    border-radius: 15px;
+    min-height: 50px;
+    max-height: 100px;
+    padding: 6px;
+    background-color: rgb(255,255,255);
+}
+
+QMenu {
+    background-color: #dde2f6;
+    color: white;
+    font:  "MS Shell Dlg 2";
+    font-size:18px;
+}
+
+QMenu::item {
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #ddf3f6;
+    color: #6c9dfd;
+}
+
+QListWidget{
+    background-color: transparent
+}
+
+QPushButton[type="register"]{
+    color:  #6c9dfd;
+    background: transparent;
+    border: none; 
+    text-decoration: underline;
+}
+
+QLabel[type="title"] {
+    font-size: 28px;
+    font-weight: bold; 
+    background: transparent;
+    color:black;
+}
+
+QRadioButton::indicator {
+        width: 15px;
+        height: 15px;
+        border: 2px solid #6c9dfd;
+        border-radius: 7px;
+        background-color: white;
+    }
+QRadioButton::indicator:checked {
+    /*image: url(":/blue_icon/mark.PNG");*/
+    width: 16px;
+    height: 16px;
+    background-color: #6c9dfd;
+    border-color: #6c9dfd;
+    }
+
+QCheckBox::indicator:checked {
+    background-color: #6c9dfd;  /* синій */
+    border: 1px solid #6c9dfd;
+}
+
+QCheckBox::indicator:unchecked {
+        background-color: white;
+        border: 1px solid #6c9dfd;
+    }
+
+QMessageBox {
+    background-color:rgb(243, 246, 250);
+    font-family: \"MS Shell Dlg 2\";;
+    font-size: 14px;
+    
+}
+
+QPushButton[type="ok"] {
+    background-color: transparent;
+    border-radius:10px; 
+    background: #516ed9; 
+    font: 75 'MS Shell Dlg 2';
+    font-size:16px;
+    color: white;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+    
+}
+
+QScrollBar::handle:vertical {
+    background: #999;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: #f0f0f0;
+    height: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #999;
+    min-width: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+QTabBar {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+QTabWidget::pane {
+        background-color: transparent;
+        border: 0px; /* Прибирає рамку навколо області вкладок */
+    }
+
+QLineEdit[type="search"]{
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+}
+
+QTextEdit{
+    border-color: transparent; 
+    font: 75 \"MS Shell Dlg 2\";
+    font-size:16px;
+    border-radius: 25px;
+    background-color:transparent;
+}
+
+QPushButton[type="lb_name_course"] {
+    border-radius: 25px;
+    background-color: rgb(221, 243, 246);
+    border: 2px solid rgb(221, 243, 246);
+    color: #516ed9;
+    font: 75  "MS Shell Dlg 2";
+    font-size:18px;
+    font-weight: bold;
+    padding: 0 16px;
+    min-height: 50px;
+    min-width: 180px;
+}
+
+QLabel[type="lb_in_btn_name_course"] {
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: #516ed9;
+    font: 75  "MS Shell Dlg 2";
+    font-size:18px;
+    font-weight: bold;
+    padding: 0 16px;
+    min-height: 50px;
+    min-width: 180px;
+}
+QLabel[type="lb_in_btn_name_course"]:hover  {
+    border-radius: 25px;
+    background-color:transparent;
+    border: 2px solid transparent;
+    color: #516ed9;
+    font: 75  "MS Shell Dlg 2";
+    font-size:18px;
+    font-weight: bold;
+    padding: 0 16px;
+    min-height: 50px;
+    min-width: 180px;
+}
+QPushButton[type="lb_name_course"][active="true"] {
+    background-color: #d1d8f6;
+    color: #3250B4;
+    border: 2px solid #d1d8f6;
+    font-weight: bold;
+}
+
+QPushButton[type="lb_name_course"]:hover {
+    background-color: #bbebee;
+}
+
+
+QToolButton{
+    background-color:white;
+}
+
+
+
+QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    gridline-color: #e0e0e0;
+    selection-background-color: #cce5ff;
+    selection-color: #000000;
+    alternate-background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+QHeaderView::section {
+    background-color: #f1f3f4;
+    color: #333333;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #d0d0d0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QTableCornerButton::section {
+    background-color: #f1f3f4;
+    border: none;
+}
+
+QTableView::item {
+    padding: 6px;
+}
+
+QTableView::item:selected {
+    background-color: #cce5ff;
+    color: #000000;
+}
+
+QComboBox {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    min-height: 30px;
+    font-size: 14px;
+}
+
+QComboBox:hover {
+    border: 1px solid #a0c4ff;
+}
+
+QComboBox:focus {
+    border: 1px solid #4285f4;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+    border-left: 1px solid #dcdcdc;
+    border-radius: 0 8px 8px 0;
+    background-color: #f1f3f4;
+}
+
+QComboBox::down-arrow {
+    /*image: url(:/icon/arrow_down.png);*/
+    width: 16px;
+    height: 16px;
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    selection-background-color: #cce5ff;
+    selection-color: #000000;
+    padding: 5px;
+}
+
+QPushButton[type="admin_ok"] {
+    background-color: transparent;
+    border-radius:10px; 
+    background: #516ed9; 
+    font: 75  'MS Shell Dlg 2';
+    font-size:22px;
+    min-width:200px;
+    height:30px;
+    color: white;
+}
+
+
+
+CircularProgress {
+    qproperty-textColor: black;
+}
+
+QLabel[type="lb_small2"] {
+    font-size: 14px;
+    font-weight: bold;     
+    color: #555;
+    background-color:white;
+}
+
+
+QSvgWidget{
+    background-color: transparent;
+}
+
+
+QLineEdit[type="settings2"]{
+    font: \"MS Shell Dlg 2\";
+    font-size: 16px;
+    border-radius: 15px;
+    min-height: 50px;
+    max-height: 100px;
+    padding: 6px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(243, 246, 250);
+
+}
+
+
+QTextBrowser {
+    border-color: rgb(255, 255, 255); 
+    font: 75  \"MS Shell Dlg 2\";
+    font-size:16px;
+    background-color: transparent;
+    color:black;
+}
+
+QLineEdit[type="tasks"]{
+    font: \"MS Shell Dlg 2\";
+    font-size: 16px;
+    border-radius: 15px;
+    min-height: 50px;
+    max-height: 100px;
+    padding: 6px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(243, 246, 250);
+
+}
+
+QTextEdit[type="tasks"]{
+    font: "MS Shell Dlg 2";
+    font-size: 16px;
+    border-radius: 15px;
+    min-height: 50px;
+    max-height: 100px;
+    padding: 6px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(243, 246, 250);
+
+}
+
+QLabel[task_role="timer"] {
+    font: 600 26px "MS Shell Dlg 2";
+    color: #516ed9;
+    background-color: transparent;
+    padding-bottom: 12px;
+}
+
+QFrame[task_role="card"],
+QWidget[task_role="card"] {
+    background-color: #f3f6ff;
+    border-radius: 20px;
+    border: 1px solid #dde2f6;
+    padding: 16px;
+}
+
+QFrame[task_role="card-info"],
+QWidget[task_role="card-info"] {
+    background-color: #f3f6ff;
+    border-radius: 20px;
+    border: 1px solid #c8d4ff;
+    padding: 16px;
+}
+
+QFrame[task_role="card-warning"],
+QWidget[task_role="card-warning"] {
+    background-color: #fff7e6;
+    border-radius: 20px;
+    border: 1px solid #ffd9a0;
+    padding: 16px;
+}
+
+QFrame[task_role="card-dark"] {
+    background-color: #1f2437;
+    border-radius: 18px;
+    border: 1px solid #2d3350;
+    padding: 16px;
+}
+
+QFrame[task_role="card-interactive"] {
+    background-color: #f0f5ff;
+    border-radius: 20px;
+    border: 1px solid #cfd8ff;
+    padding: 18px;
+}
+
+QFrame[task_role="card-subtle"],
+QWidget[task_role="card-subtle"] {
+    background-color: #f9fbff;
+    border-radius: 14px;
+    border: 1px dashed #d8def3;
+    padding: 12px;
+}
+
+QLabel[task_role="section_title"],
+QLabel[task_role="card_title"] {
+    color: #1f2754;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+QLabel[task_role="section_header"] {
+    color: #3c4761;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+QLabel[task_role="placeholder_label"] {
+    color: #8e94b8;
+    background-color: #f5f7ff;
+    border-radius: 12px;
+    padding: 16px;
+    font-size:14px;
+}
+
+QLabel[task_role="hint_label"][hint_state="hidden"] {
+    color: #6b7280;
+    font-style: italic;
+    background-color: #eef1ff;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size:14px;
+}
+
+QLabel[task_role="hint_label"][hint_state="revealed"] {
+    color: #38405f;
+    font-style: italic;
+    background-color: #dfe5ff;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size:14px;
+}
+
+QLabel[task_role="hint_title"] {
+    color: #4a4f6c;
+    font-weight: 600;
+    font-size:14px;
+}
+
+QPushButton[task_role="hint_button"] {
+    background-color: #dde2f6;
+    color: #516ed9;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+QPushButton[task_role="hint_button"]:checked {
+    background-color: #516ed9;
+    color: white;
+}
+
+QPushButton[task_role="task_primary"] {
+    background-color: #516ed9;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton[task_role="task_primary"]:hover {
+    background-color: #3f55aa;
+}
+
+QFrame[task_role="tool"] {
+    background-color: #1b1f33;
+    border-radius: 16px;
+    border: 1px solid #2b3152;
+    padding: 16px;
+}
+
+QLineEdit[task_role="calc_display"] {
+    background-color: #111425;
+    color: #64d5ff;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 24px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+QPushButton[task_role="tool_button"] {
+    background-color: #2d3354;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 18px;
+}
+
+QPushButton[task_role="tool_button"][variant="accent"] {
+    background-color: #f2994a;
+}
+
+QPushButton[task_role="tool_button"][variant="danger"] {
+    background-color: #e74c3c;
+}
+
+QPushButton[task_role="tool_button"]:hover {
+    opacity: 0.9;
+}
+
+QTextEdit[task_role="code_editor"] {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 13px;
+    background-color: #1f2437;
+    color: #d4d7e2;
+    border-radius: 12px;
+    border: 1px solid #2f3654;
+    padding: 12px;
+}
+
+
+QLineEdit[type="update"]{
+    font: \"MS Shell Dlg 2\";
+    font-size: 14px;
+    border-radius: 15px;
+    min-height: 25px;
+    max-height: 50px;
+    padding: 6px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(243, 246, 250);
+
+}
+
+QPlainTextEdit[type="update"]{
+     font: \"MS Shell Dlg 2\";
+    font-size: 14px;
+    border-radius: 15px;
+    min-height: 25px;
+    max-height: 100px;
+    padding: 6px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(243, 246, 250);
+}
+
+QPlainTextEdit[type="task_edit"]{
+     font: \"MS Shell Dlg 2\";
+    font-size: 14px;
+    border-radius: 15px;
+    min-height: 200px;
+    max-height: 300px;
+    padding: 6px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(243, 246, 250);
+}
+
+
+QWidget[type="card"]:hover {
+    border: 5px solid  #e6e6e6;
+}
+
+QLineEdit:hover {
+    border: 3px solid rgb(221, 243, 246);
+}
+
+QLabel{
+    color:#4a4f6c;
+    background-color:transparent;
+    font-size:14px;
+}
+
+
+QDialogButtonBox QPushButton {
+    background-color: #516ed9;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 13px;
+}
+
+QDialogButtonBox QPushButton:hover {
+    background-color: #bbebee;
+}
+
+QDialogButtonBox QPushButton:pressed {
+    background-color: #bbebee;
+}
+
+QPushButton[type="admin_ok"]:hover {
+    background-color: transparent;
+    border-radius:10px; 
+    background: #bbebee; 
+    font: 75  'MS Shell Dlg 2';
+    font-size:22px;
+    min-width:200px;
+    height:30px;
+    color: white;
+}
+

@@ -1,0 +1,21 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34D399"/>
+      <stop offset="100%" style="stop-color:#10B981"/>
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#10B981" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow2)">
+    <path d="M20 25 Q50 20 50 20 L50 75 Q50 75 20 70 Z" fill="url(#bookGradient)"/>
+    <path d="M80 25 Q50 20 50 20 L50 75 Q50 75 80 70 Z" fill="#059669"/>
+    <path d="M50 20 L50 75" stroke="#047857" stroke-width="2"/>
+    <path d="M28 35 L42 33" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M28 45 L42 43" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M28 55 L38 53" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M58 33 L72 35" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    <path d="M58 43 L72 45" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  </g>
+</svg>

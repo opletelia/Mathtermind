@@ -1,0 +1,16 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badge1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ADE80"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <filter id="shadow1" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#22C55E" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow1)">
+    <circle cx="40" cy="40" r="32" fill="url(#badge1Grad)"/>
+    <circle cx="40" cy="40" r="26" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+    <path d="M28 40 L36 48 L52 32" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

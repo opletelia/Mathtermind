@@ -1,0 +1,27 @@
+/* Sidebar Styling */
+QWidget {
+    background-color: #2E3440;
+    border-right: 2px solid #4C566A;
+}
+
+QPushButton {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* slight white background on hover */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.2); /* slightly darker white background on press */
+}
+
+/* Content Area Styling */
+QLabel {
+    font-size: 28px;
+    color: #ECEFF4;
+    background-color: #3B4252;
+}
